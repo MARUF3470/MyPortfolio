@@ -3,7 +3,7 @@ import React from 'react';
 const Language = () => {
     return (
         <div className='w-11/12 mx-auto'>
-            <h1 className='text-5xl font-bold'>Language Skills</h1>
+            <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 py-2'>Language Skills</h1>
             <p className='mt-2 text-lg'>Reading and Writing</p>
             <div className="divider w-1/2"></div>
             <div className='mt-4'>

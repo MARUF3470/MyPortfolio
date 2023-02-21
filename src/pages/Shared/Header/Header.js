@@ -4,6 +4,7 @@ import logo from '../../../components/Picture/m-logo-png-transparent.png'
 const Header = () => {
     const menu = <>
         <li><Link to='/' className='btn btn-ghost'>About Me</Link></li>
+        <li><Link to='/blog' className='btn btn-ghost'>Blogs</Link></li>
         <li><Link to='/contact' className='btn btn-ghost'>Contact Me</Link></li>
     </>
     return (

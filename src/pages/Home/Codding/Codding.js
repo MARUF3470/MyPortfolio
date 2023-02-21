@@ -3,7 +3,7 @@ import React from 'react';
 const Codding = () => {
     return (
         <div className='w-11/12 mx-auto mt-10'>
-            <h1 className='text-5xl font-bold'>Codding Skills</h1>
+            <h1 className='text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600 py-2'>Codding Skills</h1>
             <p className='mt-2 text-lg'>Developing on</p>
             <div className="divider w-1/2"></div>
             <div className='grid grid-cols-2 lg:grid-cols-6 gap-4 mt-5'>

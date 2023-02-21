@@ -1,3 +1,4 @@
+import Blogs from "../pages/Blogs/Blogs";
 import Contact from "../pages/Contact/Contact";
 import Home from "../pages/Home/Home/Home";
 import Project from "../pages/Home/Projects/Project";
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
             {
                 path: '/contact',
                 element: <Contact></Contact>
+            },
+            {
+                path: '/blog',
+                element: <Blogs></Blogs>
             },
             {
                 path: '/project/:id',
